@@ -2,7 +2,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt_tab')
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 import pickle as pkl
 from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
